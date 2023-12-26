@@ -77,8 +77,8 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{{ url('radio') }}">SICOM Radio</a></li>
-                        <li><a class="dropdown-item" href="{{ url('radio/{programacion}') }}">Programación Radio</a></li>
-                        <li><a class="dropdown-item" href="{{ url('radio/{envivo}') }}">Radio en vivo</a></li>
+                        <li><a class="dropdown-item" href="{{ url('radio/programacion') }}">Programación Radio</a></li>
+                        <li><a class="dropdown-item" href="{{ url('radio/envivo') }}">Radio en vivo</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -92,8 +92,8 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <button class="btn header_boton_rosa" type="submit">TV en vivo</button>
-                <button class="btn header_boton_amarillo" type="submit">Radio en vivo</button>
+                <a class="btn header_boton_rosa" href="{{ url('television') }}">TV en vivo</a>
+                <a class="btn header_boton_amarillo" href="{{ url('radio') }}">Radio en vivo</a>
             </form>
         </div>
     </div>

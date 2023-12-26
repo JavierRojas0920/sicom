@@ -13,3 +13,5 @@ require('./bootstrap');
  */
 
 require('./components/161');
+require('./components/162');
+require('./components/radio');

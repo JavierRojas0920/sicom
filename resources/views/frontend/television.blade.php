@@ -6,9 +6,9 @@
             <div class="col-md-12">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ url('television/{16.1}') }}"
+                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ url('television/16.1') }}"
                                 class="radio_enlace">Canal 16.1</a></li>
-                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ url('television/{16.2}') }}"
+                        <li class="breadcrumb-item active" aria-current="page"><a href="{{ url('television/16.2') }}"
                                 class="radio_enlace">Canal 16.2</a></li>
                     </ol>
                 </nav>
