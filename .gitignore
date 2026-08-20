@@ -13,3 +13,9 @@ yarn-error.log
 /.idea
 /.vscode
 config.bat
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
